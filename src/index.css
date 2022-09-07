@@ -1,13 +1,53 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Napa";
+    src: local("Napa"),
+      url("assets/fonts/GT-America-Napa-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+  }
+
+  @font-face {
+    font-family: "Napa";
+    src: local("Napa"),
+      url("assets/fonts/GT-America-Napa-Bold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: fallback;
+  }
+
+  @font-face {
+    font-family: "Napa";
+    src: local("Napa"),
+      url("assets/fonts/GT-America-Napa-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: fallback;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+  .bunches-button {
+    @apply block text-center text-lg font-semibold border-4 border-primary bg-white hover:bg-primary text-primary hover:text-white rounded-full px-4 py-1 transition-transform duration-100 hover:scale-105;
+  }
+
+  .spin {
+    @apply transition-transform duration-500 hover:rotate-180 transform-gpu;
+  }
+
+  .with-icon {
+    @apply flex flex-row items-center;
+  }
+}
+
+html, body {
+  font-family:  "Napa";
+  font-feature-settings: 'ss07' on;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
