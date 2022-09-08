@@ -5,8 +5,7 @@
 @layer base {
   @font-face {
     font-family: "Napa";
-    src: local("GT America Napa"), local("Napa"), local("GT America"),
-      url("assets/fonts/GT-America-Napa-Regular.woff2") format("woff2");
+    src: url("assets/fonts/GT-America-Napa-Regular.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: fallback;
@@ -14,8 +13,7 @@
 
   @font-face {
     font-family: "Napa";
-    src: local("GT America Napa"), local("Napa"), local("GT America"),
-      url("assets/fonts/GT-America-Napa-Bold.woff2") format("woff2");
+    src: url("assets/fonts/GT-America-Napa-Bold.woff2") format("woff2");
     font-weight: 600;
     font-style: normal;
     font-display: fallback;
@@ -23,8 +21,7 @@
 
   @font-face {
     font-family: "Napa";
-    src: local("GT America Napa"), local("Napa"), local("GT America"),
-      url("assets/fonts/GT-America-Napa-Black.woff2") format("woff2");
+    src: url("assets/fonts/GT-America-Napa-Black.woff2") format("woff2");
     font-weight: 900;
     font-style: normal;
     font-display: fallback;

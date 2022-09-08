@@ -5,7 +5,7 @@ import { FaGrinHearts, FaMobileAlt } from 'react-icons/fa';
 function About() {
   return (
     <div className="flex flex-col w-full">
-      <div className="h-80 overflow-hidden rounded-xl items-center justify-center flex">
+      <div className="hidden sm:flex h-80 overflow-hidden rounded-xl items-center justify-center flex">
         <img src={hero} alt="Bunches" className=""/>
       </div>
       <div className="flex w-full items-center mt-12">
