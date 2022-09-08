@@ -8,7 +8,9 @@ function Footer() {
 
   return (
     <div className="flex flex-col w-full justify-center items-center pb-8">
-      <img src={logo} alt="Bunches Logo" className="h-20 w-20 animate-spin-slow"/>
+      <a className="" target="_blank" href="https://www.bunches.xyz/">
+        <img src={logo} alt="Bunches Logo" className="h-20 w-20 animate-spin-slow"/>
+      </a>
     </div>
   );
 }

@@ -7,8 +7,8 @@ function JobItem({job}) {
         <span className="hidden sm:block -mt-1 mr-1 text-sm text-gray-800 rounded-md">{job.categories.team}</span>
       </div>
       <div className="flex flex-1 w-full mt-6 sm:mt-auto sm:w-auto sm:justify-end">
-        <a className="w-1/2 sm:w-40 mr-4 bunches-button" href={job.additionalPlain}>About</a>
-        <a className="w-1/2 sm:w-40 mr-2 bunches-button" href={job.hostedUrl}>Apply</a>
+        <a className="w-1/2 sm:w-40 mr-4 bunches-button" target="_blank" href={job.additionalPlain}>About</a>
+        <a className="w-1/2 sm:w-40 mr-2 bunches-button" target="_blank" href={job.hostedUrl}>Apply</a>
       </div>
     </div>
     <div className="block flex w-full bg-gray-100 sm:bg-gray-800 h-0.5"></div>
