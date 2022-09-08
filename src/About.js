@@ -14,7 +14,7 @@ function About() {
         </div>
         <div className="flex flex-row items-center">
           <a className="w-40 bunches-button with-icon mr-4" href="https://www.notion.so/bunches/Who-We-Are-3658aaee30f5474e9c49c9df0d2f2e70"><FaGrinHearts className="mr-4"/>About Us</a>
-          <a className="w-40 bunches-button with-icon" href="https://www.notion.so/bunches/Who-We-Are-3658aaee30f5474e9c49c9df0d2f2e70"><FaMobileAlt className="mr-4"/>TestFlight</a>
+          <a className="w-40 bunches-button with-icon" href="https://testflight.apple.com/join/LODArZyu"><FaMobileAlt className="mr-4"/>TestFlight</a>
         </div>
       </div>
       <div className="flex flex-col w-1/2">
