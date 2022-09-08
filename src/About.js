@@ -1,12 +1,12 @@
 import profile from "./assets/images/profile.png";
-import rundown from "./assets/images/rundown.png";
+import hero from "./assets/images/hero.png";
 import { FaGrinHearts, FaMobileAlt } from 'react-icons/fa';
 
 function About() {
   return (
     <div className="flex flex-col w-full">
       <div className="h-80 overflow-hidden rounded-xl items-center justify-center flex">
-        <img src={rundown} alt="Bunches" className=""/>
+        <img src={hero} alt="Bunches" className=""/>
       </div>
       <div className="flex w-full items-center mt-12">
         <div className="w-full sm:w-2/3">
