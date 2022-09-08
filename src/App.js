@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="flex flex-col h-screen w-full items-center">
       <Header/>
-      <div className="flex flex-col w-3/4 sm:w-7/12 pb-24">
+      <div className="flex flex-col w-10/12 sm:w-7/12 pb-24">
         <About/>
         <Benefits/>
         {jobs && <Jobs jobs={jobs}/>}
