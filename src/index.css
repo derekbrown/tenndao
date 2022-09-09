@@ -5,7 +5,7 @@
 @layer base {
   @font-face {
     font-family: "Napa";
-    src: url("assets/fonts/GT-America-Napa-Regular.woff") format("woff");
+    src: url("https://ik.imagekit.io/wrxztkausbq0/fonts/GT-America-Napa-Regular_L58xRiKfc.woff2?ik-sdk-version=javascript-1.4.3&updatedAt=1662693111609") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: fallback;
@@ -13,7 +13,7 @@
 
   @font-face {
     font-family: "Napa";
-    src: url("assets/fonts/GT-America-Napa-Bold.woff") format("woff");
+    src: url("https://ik.imagekit.io/wrxztkausbq0/fonts/GT-America-Napa-Bold_UxswTz9Jv.woff2?ik-sdk-version=javascript-1.4.3&updatedAt=1662693111637") format("woff2");
     font-weight: 600;
     font-style: normal;
     font-display: fallback;
@@ -21,7 +21,7 @@
 
   @font-face {
     font-family: "Napa";
-    src: url("assets/fonts/GT-America-Napa-Black.woff") format("woff");
+    src: url("https://ik.imagekit.io/wrxztkausbq0/fonts/GT-America-Napa-Black_xPmc9lHhZ.woff2?ik-sdk-version=javascript-1.4.3&updatedAt=1662693111553") format("woff2");
     font-weight: 900;
     font-style: normal;
     font-display: fallback;
