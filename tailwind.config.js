@@ -65,6 +65,11 @@ module.exports = {
               '80%': { 'border-color': '#CDFF3F' },
               '100%': { 'border-color': '#FFE76A' },
           },
+          'reverse-spin': {
+            from: {
+              transform: 'rotate(360deg)'
+            },
+          }
       },
       animation: {
           slideUp: 'slideUp 500ms ease-in-out 1',
@@ -74,6 +79,7 @@ module.exports = {
           fadeOut: 'fadeOut 500ms ease-in-out 1',
           colors: 'colors 5s linear infinite',
           'spin-slow': 'spin 5s linear infinite',
+          'reverse-spin-slow': 'reverse-spin 5s linear infinite'
       },
       colors: {
         primary: {
@@ -88,6 +94,17 @@ module.exports = {
           pink9: '#66003a',
           pink10: '#33001d',
           DEFAULT: '#ff0092'
+        },
+        neutral: {
+          gray1: '#313131',
+          gray2: '#4f4f4f',
+          gray3: '#828282',
+          gray4: '#bdbdbd',
+          gray5: '#e0e0e0',
+          gray6: '#f2f2f2',
+          gray7: '#fafafa',
+          offwhite: '#fffcfd',
+          white: '#ffffff'
         },
       },
     },

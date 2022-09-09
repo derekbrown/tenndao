@@ -8,8 +8,8 @@ function Footer() {
 
   return (
     <div className="flex flex-col w-full justify-center items-center pb-8">
-      <a className="" target="_blank" href="https://www.bunches.xyz/">
-        <img src={LOGO_IMAGE_URL} alt="Bunches Logo" className="h-20 w-20 animate-spin-slow"/>
+      <a className="" rel="noreferrer" target="_blank" href="https://www.bunches.xyz/">
+        <img src={LOGO_IMAGE_URL} alt="Bunches Logo" className="h-20 w-20 animate-spin-slow hover:animate-reverse-spin-slow"/>
       </a>
     </div>
   );
