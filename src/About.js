@@ -1,12 +1,11 @@
-import profile from "./assets/images/profile.png";
-import hero from "./assets/images/hero.png";
+import { HERO_IMAGE_URL, PHONE_IMAGE_URL } from "./Constants";
 import { FaGrinHearts, FaMobileAlt } from 'react-icons/fa';
 
 function About() {
   return (
     <div className="flex flex-col w-full">
       <div className="hidden sm:flex h-80 overflow-hidden rounded-xl items-center justify-center flex">
-        <img src={hero} alt="Bunches" className=""/>
+        <img src={HERO_IMAGE_URL} alt="Bunches" className=""/>
       </div>
       <div className="flex w-full items-center mt-12">
         <div className="w-full sm:w-2/3">
@@ -23,7 +22,7 @@ function About() {
           </div>
         </div>
         <div className="hidden sm:block flex flex-col w-1/3 ml-12">
-          <img src={profile} alt="Bunches" className="rounded"/>
+          <img src={PHONE_IMAGE_URL} alt="Bunches" className="rounded"/>
         </div>
       </div>
     </div>

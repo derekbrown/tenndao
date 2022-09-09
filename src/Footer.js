@@ -1,5 +1,5 @@
 import React, { useMemo } from "react";
-import logo from "./assets/images/logo.png";
+import { LOGO_IMAGE_URL } from "./Constants";
 
 function Footer() {
   useMemo(() => {
@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div className="flex flex-col w-full justify-center items-center pb-8">
       <a className="" target="_blank" href="https://www.bunches.xyz/">
-        <img src={logo} alt="Bunches Logo" className="h-20 w-20 animate-spin-slow"/>
+        <img src={LOGO_IMAGE_URL} alt="Bunches Logo" className="h-20 w-20 animate-spin-slow"/>
       </a>
     </div>
   );
