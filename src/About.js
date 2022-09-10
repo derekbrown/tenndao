@@ -12,6 +12,7 @@ function About() {
           <div className="text-3xl sm:text-4xl text-neutral-gray2 mb-8">
             <span className="font-bold text-neutral-gray1">Join us </span>
             in building useful communication for a tokenized world.
+            <div className="text-lg mt-4 text-neutral-gray3">Bunches is a <strong className="font-semibold">web3 messenger</strong> with an integrated social wallet, designed specifically for creators and their communities.</div>
             <div className="text-lg mt-4 text-neutral-gray3">The 1<sup>st</sup> million web3 users came in through the financial back doors of DeFi, speculation, and crypto's promise of self-banking.</div>
             <div className="text-lg mt-4 text-neutral-gray3">The next <em>hundred</em> million web3 users will enter through the non-financial front doors of tokenized community and data ownership...but we have to make it fun.</div>
             <div className="text-lg mt-4 text-neutral-gray3">If you believe in delivering web3's promises of <span className="font-semibold text-neutral-gray2">ownership</span> and <span className="font-semibold text-neutral-gray2">freedom</span> to the next hundred million users, we’d love to chat!</div>
