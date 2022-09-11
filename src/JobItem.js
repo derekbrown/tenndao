@@ -1,7 +1,7 @@
 function JobItem({job}) {
   return (
     <>
-    <a href={job.additionalPlain} rel="noreferrer" target="_blank" className="block flex flex-col sm:flex-row items-center sm:hover:bg-neutral-gray7 rounded-xl py-4 -ml-6 pl-6 pr-6 -mr-6 cursor-pointer my-4">
+    <a href={job.additionalPlain} rel="noreferrer" target="_blank" className="block flex flex-col sm:flex-row items-center sm:hover:bg-neutral-gray7 rounded-xl py-4 -mx-2 px-2 sm:-mx-6 sm:px-6 cursor-pointer my-4">
       <div className="flex-0">
         <h2 className="font-bold text-xl sm:text-2xl text-neutral-gray2 flex-1">{job.text}</h2>
         <span className="hidden sm:block -mt-1 mr-1 text-sm text-neutral-gray3 rounded-md">{job.categories.team}</span>
