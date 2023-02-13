@@ -4,6 +4,22 @@
 
 @layer base {
   @font-face {
+    font-family: "Cartridge";
+    src: url("https://ik.imagekit.io/wrxztkausbq0/fonts/Cartridge-Regular_FkaPESqfM.woff2?ik-sdk-version=javascript-1.4.3&updatedAt=1675718583784") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+  }
+
+  @font-face {
+    font-family: "Cartridge";
+    src: url("https://ik.imagekit.io/wrxztkausbq0/fonts/Cartridge-Bold_xmaFCzaBM.woff2?ik-sdk-version=javascript-1.4.3&updatedAt=1675718583748") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: fallback;
+  }
+
+  @font-face {
     font-family: "Napa";
     src: url("https://ik.imagekit.io/wrxztkausbq0/fonts/GT-America-Napa-Regular_L58xRiKfc.woff2?ik-sdk-version=javascript-1.4.3&updatedAt=1662693111609") format("woff2");
     font-weight: normal;
@@ -29,8 +45,27 @@
 }
 
 @layer components {
-  .bunches-button {
-    @apply block text-center text-lg font-semibold border-4 border-primary bg-white hover:bg-primary text-primary hover:text-white rounded-full px-4 py-1 transition-transform duration-100 hover:scale-105;
+  .bg-party {
+    background: url("./assets/images/block_party_bg.png") repeat;
+  }
+  .hover-scale {
+    @apply transition-transform duration-100 hover:scale-105
+  }
+
+  .link-color {
+    @apply border-4 border-primary-violet bg-white hover:bg-primary-violet text-primary-violet hover:text-white
+  }
+
+  .tenndao-button {
+    @apply block text-center text-lg font-semibold link-color rounded-full px-4 py-1 hover-scale;
+  }
+
+  .separator {
+    @apply bg-primary-navy h-0.5 w-full mx-4;
+  }
+
+  .link {
+    @apply text-sm py-1 px-3 rounded-full link-color font-semibold whitespace-nowrap border-2;
   }
 
   .with-icon {

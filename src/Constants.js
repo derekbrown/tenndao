@@ -1,7 +1,11 @@
-import app_logo from "./assets/images/app_logo.png";
-import hero from "./assets/images/hero.png";
+import block_party from "./assets/images/block_party.png"
+import block_party_bg from "./assets/images/block_party_bg.png"
+import block_party_title from "./assets/images/block_party_title.png"
+import event_image from "./assets/images/event.png"
+import logo_image from "./assets/images/logo.png"
 
-export const APP_LOGO_IMAGE_URL = app_logo;
-export const HERO_IMAGE_URL = hero;
-export const LOGO_IMAGE_URL = "https://ik.imagekit.io/wrxztkausbq0/careers/logo_WRJ0MDKSO.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662693467134";
-export const PHONE_IMAGE_URL = "https://ik.imagekit.io/wrxztkausbq0/careers/profile_93Bb87B-D.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662693466872";
+export const BLOCK_PARTY = block_party;
+export const BLOCK_PARTY_BG = block_party_bg;
+export const BLOCK_PARTY_TITLE = block_party_title;
+export const EVENT_IMAGE_URL = event_image;
+export const LOGO_IMAGE_URL = logo_image;

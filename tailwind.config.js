@@ -5,6 +5,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
+      cartridge: ['Cartridge', 'Napa', 'ui-sans-serif'],
       sans: [
         'Napa',
         'ui-sans-serif',
@@ -83,29 +84,25 @@ module.exports = {
       },
       colors: {
         primary: {
-          pink1: '#ffe7f4',
-          pink2: '#ffcce9',
-          pink3: '#ffb1dc',
-          pink4: '#ff80c9',
-          pink5: '#ff4d83',
-          pink6: '#ff0092',
-          pink7: '#cc0075',
-          pink8: '#990058',
-          pink9: '#66003a',
-          pink10: '#33001d',
-          DEFAULT: '#ff0092'
+          magenta: '#b43178',
+          royal: '#1e55b9',
+          beige: '#fff9f3',
+          aqua: '#00d6cb',
+          purple: '#ce53e0',
+          yellow: '#ffd24a',
+          orange: '#ff7c3b',
+          violet: '#494b98',
+          navy: '#263b5a',
+          pink: '#ff0088',
+          gold: '#d9ab4d'
         },
-        neutral: {
-          gray1: '#313131',
-          gray2: '#4f4f4f',
-          gray3: '#828282',
-          gray4: '#bdbdbd',
-          gray5: '#e0e0e0',
-          gray6: '#f2f2f2',
-          gray7: '#fafafa',
-          offwhite: '#fffcfd',
-          white: '#ffffff'
-        },
+        secondary: {
+          aqua: '#bcf3ee',
+          purple: '#f2ccf5',
+          yellow: '#fff2c3',
+          orange: '#ffe4bf',
+          violet: '#cfcadd',
+        }
       },
     },
   },
