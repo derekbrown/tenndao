@@ -39,7 +39,7 @@ function Main() {
         topic="web3 in TN"
         eventUrl={false}
         desc="May's panel will feature speakers and stakeholders from the TN government discussing policies and opinions that pertain to web3 in TN: crypto, blockchain, and DAOs."
-        imageUrl="https://ik.imagekit.io/wrxztkausbq0/tenndao/may_tn_uCbISDtQP.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676401070638"
+        imageUrl="https://ik.imagekit.io/wrxztkausbq0/tenndao/may_tn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676402213223"
       />
     </div>
   );
