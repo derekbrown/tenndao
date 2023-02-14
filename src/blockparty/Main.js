@@ -21,19 +21,25 @@ function Main() {
         date="3/21"
         dateText="March 21, 2023"
         topic="web3 and Your Privacy"
-        eventUrl=""
+        eventUrl={false}
+        desc="March's panel will deep dive on the changing nature of privacy in a blockchain-oriented world - when everything is public, is it actually possible to be private?"
+        imageUrl="https://ik.imagekit.io/wrxztkausbq0/tenndao/march_privacy_uCSERXc8R.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676401070703"
       />
       <Event
         date="4/18"
         dateText="April 18, 2023"
         topic="web3 to Make an (ESG) Impact"
-        eventUrl=""
+        eventUrl={false}
+        desc="April's panel will highlight activists, investors, and entrepreneurs who see web3 as a viable tool for having massive social impact across the environmental, social, and governance sectors."
+        imageUrl="https://ik.imagekit.io/wrxztkausbq0/tenndao/april_impact_vHyRFY-mp.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676401070701"
       />
       <Event
         date="5/16"
         dateText="May 16, 2023"
         topic="web3 in TN"
-        eventUrl=""
+        eventUrl={false}
+        desc="May's panel will feature speakers and stakeholders from the TN government discussing policies and opinions that pertain to web3 in TN: crypto, blockchain, and DAOs."
+        imageUrl="https://ik.imagekit.io/wrxztkausbq0/tenndao/may_tn_uCbISDtQP.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676401070638"
       />
     </div>
   );
