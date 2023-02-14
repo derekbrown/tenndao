@@ -8,7 +8,7 @@ function About() {
   return (
     <div className="flex flex-col w-full">
       <Mission/>
-      {false && <EmailForm/>}
+      <EmailForm/>
       <div className="flex w-full items-start mt-4">
         <div className="w-full sm:w-2/3">
           <BlockParty/>
