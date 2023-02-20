@@ -9,12 +9,13 @@ function EmailForm() {
     try {
       let res = await fetch("https://api.beehiiv.com/v2/publications/pub_6f137375-16fa-457e-ada9-2caf59fdd073/subscriptions", {
         method: "POST",
+        credentials: true,
         headers:{
+          'Access-Control-Allow-Origin': "https://tenndao.com",
           'Authorization': "Bearer " + token,
           'Content-Type': "application/json"
         },
         body: JSON.stringify({
-          publicationId: "pub_6f137375-16fa-457e-ada9-2caf59fdd073",
           email: email
         }),
       });
